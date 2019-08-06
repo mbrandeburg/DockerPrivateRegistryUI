@@ -84,18 +84,11 @@ def homePage():
     trace = go.Bar(
         x = valueCounts['Last Modified Date'],
         y = valueCounts['Count'],
-        width = .2,
-        showlegend = False,
-        marker = dict(
-            color = 'rgb(120, 175, 211)'
-        ),
     )
     # now get it ready for json
     dataGraph = [trace]
     graphJSON = json.dumps(dataGraph, cls=plotly.utils.PlotlyJSONEncoder)
     return render_template('index.html', table=reposDF.to_html(), title1=url, graphJSON=graphJSON)
-    ## Use below if we activate separate ID page (see saved scripts below)
-    # return render_template('index.html', table=reposDF.render(), table2=reposDF2.render(), title1=url1, title2=url2)
 
 # favicon
 @app.route('/favicon.ico')
