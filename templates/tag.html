@@ -1,0 +1,62 @@
+{% extends "bootstrap/base.html" %}
+{% block content %}
+{% block styles %}
+  {{super()}}
+<head>
+    <title>Private Docker Registry Containers</title>
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+</head>
+{% endblock %}
+<body>
+<!-- navbar header -->
+<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+    <a class="navbar-brand">Private Docker Registry</a>
+    <!-- <input class="form-control form-control-dark w-100" type="text" placeholder="Search" aria-label="Search"> -->
+  </nav>
+
+<!-- main body -->
+<p></p>
+<h2>{{title1}}</h2>
+<p></p>
+{{ table | safe }}
+
+
+<!-- footer -->
+<br>
+<p class=footer style=color:#377ba8>Data Machines Corp. 2019</p>
+</body>
+
+<!-- adding in jquery to do table sorts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <script src=https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js></script>
+    <script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js"></script>
+    <script src=https://cdn.datatables.net/buttons/1.5.6/js/buttons.flash.min.js></script>
+    <!-- enable the next line for non-gradient buttons -->
+    <!-- <script src=https://cdn.datatables.net/buttons/1.5.6/js/buttons.bootstrap.min.js></script> -->
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js></script>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js></script>
+    <script src=https://cdn.datatables.net/buttons/1.5.6/js/buttons.html5.min.js></script>
+    <script src=https://cdn.datatables.net/buttons/1.5.6/js/buttons.print.min.js></script>
+    <script src=https://cdn.datatables.net/buttons/1.5.6/js/buttons.colVis.min.js></script>
+    <script>
+    var tables = $('table');
+    $.each(tables, function(i, tbl){
+      // console.log(tbl)
+      $(tbl).prop('id', 'dataframe'+i); 
+      // console.log("TRYING TO ADD ID TO TABLES!!!")
+      $('#dataframe'+i).DataTable({
+        dom: 'Bfrtip',
+        buttons: [
+            'copy', 'csv', 'excel', 'pdf', 'print'
+        ],
+        "paging":   false,
+        // "search":   false,
+        // bFilter:    false, 
+        bInfo:      false
+      });
+    });
+    </script>
+  <!-- end of jquery -->
+{% endblock %}
