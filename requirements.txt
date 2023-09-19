@@ -20,7 +20,7 @@ Click==7.0
 Flask==2.2.5
 idna==2.8
 itsdangerous==1.1.0
-Jinja2==2.10.1
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 numpy==1.22.0
 pandas==0.25.0
@@ -39,7 +39,7 @@ Flask==2.2.5
 Flask-Bootstrap==3.3.7.1
 idna==2.8
 itsdangerous==1.1.0
-Jinja2==2.10.1
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 numpy==1.22.0
 pandas==0.25.0
@@ -59,7 +59,7 @@ Flask==2.2.5
 Flask-Bootstrap==3.3.7.1
 idna==2.8
 itsdangerous==1.1.0
-Jinja2==2.10.1
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 numpy==1.22.0
 pandas==0.25.0
@@ -82,7 +82,7 @@ Flask==2.2.5
 Flask-Bootstrap==3.3.7.1
 idna==2.8
 itsdangerous==1.1.0
-Jinja2==2.10.1
+Jinja2==2.11.3
 MarkupSafe==1.1.1
 numpy==1.22.0
 pandas==0.25.0
@@ -108,7 +108,7 @@ Flask-Bootstrap==3.3.7.1
 idna==2.8
 ipython-genutils==0.2.0
 itsdangerous==1.1.0
-Jinja2==2.10.1
+Jinja2==2.11.3
 jsonschema==3.0.2
 jupyter-core==4.11.2
 MarkupSafe==1.1.1
