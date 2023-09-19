@@ -1,7 +1,7 @@
 certifi==2023.7.22
 chardet==3.0.4
 idna==2.8
-requests==2.22.0
+requests==2.31.0
 urllib3==1.25.3
 certifi==2023.7.22
 chardet==3.0.4
@@ -10,7 +10,7 @@ numpy==1.22.0
 pandas==0.25.0
 python-dateutil==2.8.0
 pytz==2019.2
-requests==2.22.0
+requests==2.31.0
 six==1.12.0
 urllib3==1.25.3
 bootstrap4==0.1.0
@@ -26,7 +26,7 @@ numpy==1.22.0
 pandas==0.25.0
 python-dateutil==2.8.0
 pytz==2019.2
-requests==2.22.0
+requests==2.31.0
 six==1.12.0
 urllib3==1.25.3
 Werkzeug==0.15.5
@@ -45,7 +45,7 @@ numpy==1.22.0
 pandas==0.25.0
 python-dateutil==2.8.0
 pytz==2019.2
-requests==2.22.0
+requests==2.31.0
 six==1.12.0
 urllib3==1.25.3
 visitor==0.1.3
@@ -66,7 +66,7 @@ pandas==0.25.0
 plotly==4.0.0
 python-dateutil==2.8.0
 pytz==2019.2
-requests==2.22.0
+requests==2.31.0
 retrying==1.3.3
 six==1.12.0
 urllib3==1.25.3
@@ -89,7 +89,7 @@ pandas==0.25.0
 plotly==4.0.0
 python-dateutil==2.8.0
 pytz==2019.2
-requests==2.22.0
+requests==2.31.0
 retrying==1.3.3
 six==1.12.0
 urllib3==1.25.3
@@ -119,7 +119,7 @@ plotly==3.9.0
 pyrsistent==0.15.4
 python-dateutil==2.8.0
 pytz==2019.2
-requests==2.22.0
+requests==2.31.0
 retrying==1.3.3
 six==1.12.0
 traitlets==4.3.2
