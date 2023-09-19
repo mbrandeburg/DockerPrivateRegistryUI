@@ -17,7 +17,7 @@ bootstrap4==0.1.0
 certifi==2022.12.7
 chardet==3.0.4
 Click==7.0
-Flask==1.1.1
+Flask==2.2.5
 idna==2.8
 itsdangerous==1.1.0
 Jinja2==2.10.1
@@ -35,7 +35,7 @@ certifi==2022.12.7
 chardet==3.0.4
 Click==7.0
 dominate==2.4.0
-Flask==1.1.1
+Flask==2.2.5
 Flask-Bootstrap==3.3.7.1
 idna==2.8
 itsdangerous==1.1.0
@@ -55,7 +55,7 @@ certifi==2022.12.7
 chardet==3.0.4
 Click==7.0
 dominate==2.4.0
-Flask==1.1.1
+Flask==2.2.5
 Flask-Bootstrap==3.3.7.1
 idna==2.8
 itsdangerous==1.1.0
@@ -78,7 +78,7 @@ chardet==3.0.4
 chart-studio==1.0.0
 Click==7.0
 dominate==2.4.0
-Flask==1.1.1
+Flask==2.2.5
 Flask-Bootstrap==3.3.7.1
 idna==2.8
 itsdangerous==1.1.0
@@ -103,7 +103,7 @@ chart-studio==1.0.0
 Click==7.0
 decorator==4.4.0
 dominate==2.4.0
-Flask==1.1.1
+Flask==2.2.5
 Flask-Bootstrap==3.3.7.1
 idna==2.8
 ipython-genutils==0.2.0
